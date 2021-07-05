@@ -1,0 +1,9 @@
+Part 1) 
+If using the same structure, we create three dierent bonds according to dierent x,y, z values.
+This will practically be like 3 different trees. Since the insertion time complexity is O(t*log(tn)),
+time complexity for this type of tree will be also O(t*log(tn)).
+
+Part 2)
+If we put mini B trees in nodes, if we have n nodes and mini b-trees have m nodes, since we will visit
+n nodes and and insert new element to a mini b tree with m elements time complexity will be O(nt*log(tm)). 
+
